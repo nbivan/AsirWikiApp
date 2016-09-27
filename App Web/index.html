@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="Tu Wiki sobre el Grado Superior de ASIR">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Tu App de Wiki de ASIR</title>
+      <!-- Add to homescreen for Chrome on Android -->
+      <meta name="mobile-web-app-capable" content="yes">
+      <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+      <!-- Add to homescreen for Safari on iOS -->
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="indigo">
+      <meta name="apple-mobile-web-app-title" content="Tu Wiki sobre el Grado Superior de ASIR">
+      <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+      <!-- Tile icon for Win8 (144x144 + tile color) -->
+      <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+      <meta name="msapplication-TileColor" content="#303F9F">
+      <link rel="shortcut icon" href="images/favicon.png">
+      <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+      <!--
+         <link rel="canonical" href="http://www.example.com/">
+         -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-yellow.min.css" />
+      <link rel="stylesheet" href="styles.css">
+      <style>
+         #view-source {
+         position: fixed;
+         display: block;
+         right: 0;
+         bottom: 0;
+         margin-right: 40px;
+         margin-bottom: 40px;
+         z-index: 900;
+         }
+      </style>
+      <!-- Image card -->
+      <style>
+         .demo-card-image.mdl-card {
+         width: 256px;
+         height: 256px;
+         background: url('./images/image_card.jpg') center / cover;
+         }
+         .demo-card-image > .mdl-card__actions {
+         height: 52px;
+         padding: 16px;
+         background: rgba(0, 0, 0, 0.2);
+         }
+         .demo-card-image__filename {
+         color: #fff;
+         font-size: 14px;
+         font-weight: 500;
+         }
+      </style>
+   </head>
+   <!-- Cuerpo -->
+   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-color--indigo-500">
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+         <div class="mdl-layout__header-row">
+            <div class="android-header-spacer mdl-layout-spacer"></div>
+            <span class="android-title mdl-layout-title">
+            <img class="android-logo-image" src="images/logo.png"></a>
+            </span>
+           
+            <span class="android-mobile-title mdl-layout-title">
+            <img class="navigation-image" src="./images/logo.png">
+            </span>
+         </div>
+      </div>
+      <!-- Menu de Navegacion -->
+      <div class="android-content mdl-layout__content">
+      <!-- Id introduccion -->
+      <div class="mdl-layout__tab-panel is-active mdl-color--indigo-500" id="home">
+         <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+               <div class="mdl-card__supporting-text">
+                  <div align=center><h3>ASIR Wiki App</h3></div>
+                  ASIR Wiki App es la versión para smartphones Android. Una aplicación ligera y muy rápida para cualquier tipo de dispositivo. 
+				  <br> </br>
+				  <div><b>Características:</b></div>
+				  <div><b>- </b> Versión: Alpha 0.1</div>
+				  <div><b>- </b> SDK mínimo: 4.0.3-col-phone</div>
+				  <div><b>- </b> Compilación: Android N</div>
+				  <br> </br>
+				  <div><b>Bugs:</b></div>
+				  <div><b>- </b> FC al subir nuevos apuntes</div>
+               </div>
+            </div>
+         </section>
+         <br> </br>
+      </div>
+	  
+	  <div class="android-card-container mdl-grid">
+                  <div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--3-col-phone mdl-card mdl-shadow--3dp">
+                     <div class="mdl-card__media">
+                        <img src="images/screener-1.png">
+                     </div>
+                  </div>
+                  <div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--3-col-phone mdl-card mdl-shadow--3dp">
+                     <div class="mdl-card__media">
+                        <img src="images/screener-2.png">
+                     </div>
+                  </div>
+				  <div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--3-col-phone mdl-card mdl-shadow--3dp">
+                     <div class="mdl-card__media">
+                        <img src="images/screener-3.png">
+                     </div>
+                  </div>
+               </div>
+           
+	  
+      
+	  <!-- Boton flotante para contactar por correo -->
+      <a href="https://mega.nz/#!gJdgyRwR!DS7U_F2gZ9V_Vap_KYZYuTIKcjXapCCuKi1bD5S9bNA" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"><i class="material-icons">android</i></a>
+      <script src="https://code.getmdl.io/1.1.1/material.min.js"></script>
+   </body>
+</html>
